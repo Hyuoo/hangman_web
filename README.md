@@ -9,6 +9,7 @@
   - 테스트코드
 
 - - -
+
 새로배운 커맨드
 ```
 docker inspect [IMAGE]
@@ -20,15 +21,17 @@ docker run
 -d 백그라운드 detache
 ```
 
-
 - - -
+
 ## 1. 서비스 띄우기
 ```
 git clone https://github.com/Hyuoo/hangman_web.git
 pip3 install -r requirements.txt
 python3 -m flask run --host=0.0.0.0 --port=4000
 ```
+
 - - -
+
 ## 2. 도커 이미지 빌드 / 실행   
   위 명령어들을 Dockerfile에 기술
 ```
@@ -51,7 +54,9 @@ docker build --platform=linux/amd64 -t hopeace6/hangman .
 docker run -p 4000:4000 hopeace6/hangman
 ```
 포트를 매핑해줘야 도커 외부에서 접근 가능.
+
 - - - 
+
 ## 3. 도커 허브 공유
 ```
 docker push hopeace6/hangman
@@ -60,3 +65,7 @@ docker push hopeace6/hangman
 docker pull hopeace6/hangman
 docker run -p 4000:4000 hopeace6/hangman
 ```
+
+- - -
+
+This is to learn CI/CD actions from Github
