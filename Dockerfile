@@ -7,4 +7,4 @@ COPY requirements.txt ./
 RUN pip3 install -r requirements.txt
 # 동작에는 관여 X 메타데이터 너낌 __내부에서 4000번 오픈했다~
 EXPOSE 4000
-CMD ["python3","-m","flask","run","--host=0.0.0.0",--port=4000"]
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=4000"]
