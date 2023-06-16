@@ -1,7 +1,8 @@
 # hangman_web
 
 - requirements.txt
-  - 의존성 환경 설치용 pip install requirements.txt
+  - 의존성 환경 설치용
+  - ```pip install -r requirements.txt```
 - app.py
   - 메인코드
 - test.py
@@ -28,7 +29,7 @@ pip3 install -r requirements.txt
 python3 -m flask run --host=0.0.0.0 --port=4000
 ```
 - - -
-## 2. 도커 이미지 빌드   
+## 2. 도커 이미지 빌드 / 실행   
   위 명령어들을 Dockerfile에 기술
 ```
 # Dockerfile
