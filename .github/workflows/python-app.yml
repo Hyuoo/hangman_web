@@ -39,4 +39,4 @@ jobs:
     - name: Test with unittest
       run: |
         # pytest
-        python -m unittest dicover -p 'test*.py'
+        python -m unittest discover -p 'test*.py'
