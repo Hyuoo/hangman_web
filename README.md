@@ -68,4 +68,4 @@ docker run -p 4000:4000 hopeace6/hangman
 
 - - -
 
-This is to learn CI/CD actions from Github
+This is to learn CI/CD actions from Github.
