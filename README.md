@@ -25,7 +25,7 @@ docker run
 
 ## 1. 서비스 띄우기
 ```
-git clone https://github.com/Hyuoo/kdt-practice-hangman_web.git
+git clone https://github.com/Hyuoo/kdt-practice-docker.git
 pip3 install -r requirements.txt
 python3 -m flask run --host=0.0.0.0 --port=4000
 ```
